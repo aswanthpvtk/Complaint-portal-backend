@@ -45,7 +45,7 @@ public class ComplaintController {
             int id = result.get(0).getId();
             st.put("userId", String.valueOf(id));
             st.put("status", "success");
-            st.put("message", "d");
+            st.put("message", "success");
         }
 
         return st;
